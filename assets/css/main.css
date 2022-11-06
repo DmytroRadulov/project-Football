@@ -1,0 +1,232 @@
+.section-gap {
+    padding: 40px 0;
+}
+
+.title-row {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/*NAVIGATION*/
+#navigation {
+    background: #00000099;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+}
+
+#logo img {
+    width: 50px;
+    height: 30px;
+
+}
+
+#navigation .nav {
+    width: auto;
+}
+
+#navigation .row > * {
+    width: unset;
+}
+
+#navigation .nav .nav-link {
+    color: #ffffff;
+}
+
+#navigation .nav .nav-link:hover {
+    color: #163bad;
+}
+
+
+/*NAVIGATION*/
+
+
+/*Home*/
+#home {
+    background: url("../images/bg/header-bg31.jpg");
+    background-size: cover;
+
+
+}
+
+#home .banner-content {
+    height: 898px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 0 15%;
+    color: #ffffff;
+
+}
+
+#home .row .carousel-indicators {
+    margin-bottom: 5rem;
+    margin-left: unset;
+}
+
+/*Home*/
+
+
+/*ABOUT*/
+#about {
+    background: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+#about .video {
+    position: relative;
+    padding: 0;
+
+}
+
+#about .video-img {
+    width: 60%;
+    border-radius: 10%;
+}
+
+#about .video .play {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#about .video-right {
+    padding-left: 5%;
+}
+
+#about .video-right h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7a7516;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#about .video-right h1 {
+    padding-bottom: 20px;
+}
+
+#about .video-right p span {
+    color: black;
+    font-weight: 400;
+}
+
+#about .video-right .img-fluid {
+    width: 60px;
+    height: 50px;
+}
+
+/*ABOUT*/
+
+
+/*CATALOG*/
+#catalog {
+    background: url("../images/catalog/fon2.jpg");
+
+}
+
+#catalog .catalog-item {
+    margin-bottom: 24px;
+}
+
+#catalog .catalog-item .single-menu {
+    background: #ffffff;
+    border-radius: 5%;
+    padding: 5%;
+    box-shadow: 0 0 5px 1px #10dc13f5;
+}
+
+#catalog .catalog-item .single-menu:hover {
+    box-shadow: 0 0 10px 1px #b22222;
+    cursor: pointer;
+}
+
+#catalog .catalog-item .single-menu .title-div {
+    margin-bottom: 16px;
+
+}
+
+#catalog .title-row {
+    color: #ffffff;
+}
+
+#catalog .title-row p span {
+    color: #ffffff;
+}
+
+/*CATALOG*/
+#gallery .gallery-img {
+    margin-bottom: 32px;
+    width: 100%;
+    border-radius: 5%;
+}
+
+#reviews {
+    background-color:#1e800aab;
+    color: #ffffff;
+}
+#reviews .star {
+    margin-left: 24px;
+    color: #c1850f;
+    font-size: 20px;
+}
+#reviews .col-md-6 img {
+    border-radius: 20%;
+}
+#photo {
+    width: 100%;
+}
+#photo .col-sm-6 img {
+ border-radius: 5%;
+}
+#photo .row img {
+    margin-bottom: 20px;
+}
+/*#photo .row .text {*/
+/*    box-shadow: 0 0 5px;*/
+/*    border-radius: 10%;*/
+/*    margin-left: 10px;*/
+/*}*/
+#photo .row .text:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+footer{
+    background: url("../images/img6.jpg")no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 220px !important;
+}
+footer .footer-social {
+    font-size: 24px;
+}
+footer .footer-social a {
+    margin: 0 5px;
+}
+footer .footer-social a:hover{
+    color: #ffffff;
+}
+footer .form-group .btn {
+    color: #0000ff;
+}
+footer .form-group .btn:hover {
+    color: #ffffff;
+}
+
+body .alert.notification {
+    width: 25%;
+    position: fixed;
+    top: 70px;
+    right: 15px;
+}
+

@@ -1,0 +1,17 @@
+{
+    "name": "drozg/base",
+    "autoload": {
+        "psr-4": {
+            "Drozg\\Base\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DenisRozganyaev",
+            "email": "denis.rozganyaev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    }
+}
